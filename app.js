@@ -18,7 +18,7 @@ function afficherFormulaireRecherche() {
             />
             <button class="btn rose-800 rose-50-text" type="submit">
                 <h2 class="text-preset-2">Rechercher</h2>
-            </button>
+            </button> 
         </form>
     `;
 
