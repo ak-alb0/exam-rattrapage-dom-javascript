@@ -1,0 +1,269 @@
+:root {
+	--rose-800: #7a284e;
+	--rose-50: #fff7fb;
+	--rose-100: #e8ceda;
+	--stone-900: #312e2c;
+	--stone-600: #5f564d;
+	--stone-150: #e3ddd7;
+	--stone-100: #f3e5d7;
+	--brown-800: #854632;
+	--lime-100: #b5ffae;
+	--yellow-100: #f0ffae;
+	--blue-100: #64b8f4;
+	--white: #ffffff;
+
+	font-family: "Young Serif", serif;
+	font-size: 16px;
+}
+
+html,
+body {
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+body {
+	background-color: var(--stone-100);
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+main {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 24px;
+}
+
+.card {
+	display: grid;
+	grid-template-rows: 3fr 9fr;
+	padding: 40px 40px;
+	gap: 24px 0;
+	background-color: var(--white);
+	color: var(--stone-900);
+	width: 80%;
+	border-radius: 12px;
+}
+
+.card .card-content {
+	display: flex;
+	flex-direction: column;
+	gap: 24px 0;
+}
+
+.card .card-chips {
+	display: flex;
+	flex-direction: row;
+	gap: 12px;
+}
+
+.illustration {
+	border-radius: 12px;
+}
+
+.card-ingredients-table {
+	border: none;
+}
+
+.card-ingredients-table td,
+.card-ingredients-table th {
+	border-bottom: thin solid var(--stone-150);
+	padding: 12px 24px;
+	text-align: left;
+}
+
+.card-help {
+	background-color: var(--rose-50);
+	padding: 24px 24px;
+}
+
+.card-instructions-list {
+	list-style: decimal;
+	color: var(--rose-800);
+}
+
+.card-instructions-list li {
+	font-size: 1.5rem;
+}
+
+.card-help-list {
+	list-style: circle;
+}
+
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	border-radius: 12px;
+	padding: 12px 24px;
+	font-family: inherit;
+	cursor: pointer;
+}
+
+.input {
+	border-radius: 12px;
+	padding: 24px 36px;
+	border: none;
+	font-family: inherit;
+	background-color: var(--rose-50);
+	color: var(--rose-800);
+}
+
+.link {
+	color: var(--blue-100);
+	margin-left: 12px;
+}
+
+.input::placeholder {
+	color: var(--rose-100);
+}
+
+.chip {
+	padding: 8px 4px;
+}
+
+.rose-800 {
+	background-color: var(--rose-800) !important;
+}
+
+.rose-800-text {
+	border-color: var(--rose-800) !important;
+	color: var(--rose-800) !important;
+}
+
+.rose-50 {
+	background-color: var(--rose-50) !important;
+}
+
+.rose-50-text {
+	border-color: var(--rose-50) !important;
+	color: var(--rose-50) !important;
+}
+
+.rose-100 {
+	background-color: var(--rose-100) !important;
+}
+
+.rose-100-text {
+	border-color: var(--rose-100) !important;
+	color: var(--rose-100) !important;
+}
+
+.stone-900 {
+	background-color: var(--stone-900) !important;
+}
+
+.stone-900-text {
+	border-color: var(--stone-900) !important;
+	color: var(--stone-900) !important;
+}
+
+.stone-600 {
+	background-color: var(--stone-600) !important;
+}
+
+.stone-600-text {
+	border-color: var(--stone-600) !important;
+	color: var(--stone-600) !important;
+}
+
+.stone-150 {
+	background-color: var(--stone-150) !important;
+}
+
+.stone-150-text {
+	border-color: var(--stone-150) !important;
+	color: var(--stone-150) !important;
+}
+
+.stone-100 {
+	background-color: var(--stone-100) !important;
+}
+
+.stone-100-text {
+	border-color: var(--stone-100) !important;
+	color: var(--stone-100) !important;
+}
+
+.brown-800 {
+	background-color: var(--brown-800) !important;
+}
+
+.brown-800-text {
+	border-color: var(--brown-800) !important;
+	color: var(--brown-800) !important;
+}
+
+.lime-100 {
+	background-color: var(--lime-100) !important;
+}
+
+.lime-100-text {
+	border-color: var(--lime-100) !important;
+	color: var(--lime-100) !important;
+}
+
+.yellow-100 {
+	background-color: var(--yellow-100) !important;
+}
+
+.yellow-100-text {
+	border-color: var(--yellow-100) !important;
+	color: var(--yellow-100) !important;
+}
+
+.white {
+	background-color: var(--white) !important;
+}
+
+.white-text {
+	border-color: var(--white) !important;
+	color: var(--white) !important;
+}
+
+.bold {
+	font-weight: 900;
+}
+
+.text-preset-1 {
+	font-size: 4rem;
+	font-weight: 400;
+}
+
+.text-preset-2 {
+	font-size: 2.5rem;
+	font-weight: 400;
+}
+
+.text-preset-3 {
+	font-size: 1.75rem;
+	font-weight: 400;
+}
+
+.text-preset-4 {
+	font-size: 1.25rem;
+	font-weight: 400;
+}
+
+.text-preset-4-bold {
+	font-size: 1.25rem;
+	font-weight: 900;
+}
+
+.text-preset-body {
+	font-size: 1rem;
+}
