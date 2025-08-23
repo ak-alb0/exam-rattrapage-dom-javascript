@@ -63,6 +63,7 @@ function afficherRecette(recette) {
                 <h2 class="text-preset-2 brown-800-text">Ingrédients</h2>
                 <table class="card-ingredients-table"><tbody>
     `;
+    
 
     for (let i = 1; i <= 20; i++) {
         let ingredient = recette['strIngredient' + i];
