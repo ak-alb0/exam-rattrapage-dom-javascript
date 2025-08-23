@@ -95,7 +95,6 @@ function afficherRecette(recette) {
     }
 
     html += `</ul>`;
-
     if (recette.strYoutube) {
         html += `
             <div class="card-help">
