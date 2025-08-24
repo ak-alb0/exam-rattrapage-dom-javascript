@@ -51,7 +51,7 @@ async function chercherRecette(nom) {
 
 function afficherRecette(recette) {
     let main = document.querySelector('main');
-    let html = `
+    let html =  `
         <section class="card">
             <div class="illustration" style="background: center / cover no-repeat url('${recette.strMealThumb}');"></div>
             <div class="card-content">
