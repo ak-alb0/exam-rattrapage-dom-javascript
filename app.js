@@ -87,7 +87,6 @@ function afficherRecette(recette) {
 
     let etapes = recette.strInstructions.split('\r\n');
     if (etapes.length === 1) etapes = recette.strInstructions.split('. ');
-
     for (let etape of etapes) {
         etape = etape.trim();
         if (etape !== '') {
