@@ -39,7 +39,7 @@ async function chercherRecette(nom) {
     let main = document.querySelector('main');
 
     let url = 'https://www.themealdb.com/api/json/v1/1/search.php?s=' + encodeURIComponent(nom);
-
+ 
     let reponse = await fetch(url);
     let data = await reponse.json();
 
