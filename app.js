@@ -22,6 +22,7 @@ function afficherFormulaireRecherche() {
         </form>
     `;
 
+
     let formulaire = document.getElementById('form');
     formulaire.addEventListener('submit', (event) => {
         event.preventDefault();
